@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "resenas-taladros-y-atornilladores",
+    "name": "Reseñas de Taladros y Destornilladores",
+    "icon": "drill",
+    "description": "Análisis técnicos por código exacto (DEWALT, Bosch, Makita y BLACK+DECKER) en Amazon EE. UU., indicando torque, presupuesto, trabajo ideal y accesorios compatibles."
+  },
+  {
+    "slug": "juegos-y-kits-de-herramientas",
+    "name": "Juegos y Kits de Herramientas",
+    "icon": "kit",
+    "description": "Guías de combos inalámbricos (taladro + impacto) y maletines completos de herramientas manuales y eléctricas para equipar tu departamento."
+  },
+  {
+    "slug": "comparativas-de-herramientas",
+    "name": "Comparativas Modelo vs Modelo",
+    "icon": "scale",
+    "description": "Duelos directos entre taladros, destornilladores y marcas líderes comparando potencia, peso, baterías, mandril y precio en Amazon Estados Unidos."
+  },
+  {
+    "slug": "herramientas-por-presupuesto-y-trabajo",
+    "name": "Por Presupuesto y Tipo de Trabajo",
+    "icon": "tag",
+    "description": "Selecciones en Amazon desde menos de $50 hasta kits profesionales, filtradas para armar muebles, perforar drywall, ladrillo o concreto armado."
+  },
+  {
+    "slug": "baterias-y-cargadores-compatibles",
+    "name": "Baterías y Cargadores Compatibles",
+    "icon": "battery",
+    "description": "Qué baterías y cargadores exactos comprar en Amazon para DEWALT 20V/12V, Bosch 12V/18V, Makita 18V LXT/CXT y BLACK+DECKER 20V PowerConnect."
+  },
+  {
+    "slug": "brocas-puntas-y-accesorios-compatibles",
+    "name": "Brocas, Puntas y Accesorios",
+    "icon": "bit",
+    "description": "Sets de brocas para concreto, madera, melamina, metal y cerámica, puntas Impact Rated y adaptadores angulares compatibles con cada mandril."
+  },
+  {
+    "slug": "guia-de-compatibilidad-baterias-y-voltaje",
+    "name": "Guía Técnica de Voltaje y Baterías",
+    "icon": "bolt",
+    "description": "Diferencias reales entre 12V, 18V y 20V MAX, amperaje (1.5Ah a 5.0Ah), uso de cargadores 110V de EE. UU. en 220V y códigos de luces LED."
+  },
+  {
+    "slug": "guia-de-mandriles-brocas-y-puntas",
+    "name": "Mandriles, Vástagos y Medidas",
+    "icon": "gear",
+    "description": "Compatibilidad mecánica entre mandriles de 3/8\", 1/2\" y 1/4\" Hex, tipos de punta (PH2, PZ2, Torx) y tablas de equivalencia entre broca y tarugo."
+  },
+  {
+    "slug": "perforar-paredes-concreto-drywall-y-ceramica",
+    "name": "Perforar Concreto, Drywall y Cerámica",
+    "icon": "wall",
+    "description": "Cómo identificar el tipo de pared de tu departamento, cuándo usar percutor, qué tarugo elegir según el peso y cómo taladrar sin rajar mayólicas."
+  },
+  {
+    "slug": "armado-de-muebles-madera-y-melamina",
+    "name": "Armado de Muebles y Melamina",
+    "icon": "wood",
+    "description": "Ajuste exacto del embrague de torque para no barrer tornillos en melamina o MDF, instalación de bisagras de cocina, correderas y perforación guía."
+  },
+  {
+    "slug": "instalaciones-y-mejoras-en-departamento",
+    "name": "Instalaciones en tu Departamento",
+    "icon": "home",
+    "description": "Tutoriales paso a paso para colgar soportes de TV, cortinas roller, repisas flotantes, espejos de baño y cerraduras con la herramienta exacta."
+  },
+  {
+    "slug": "motores-torque-embrague-y-ergonomia",
+    "name": "Motores Brushless, Torque y RPM",
+    "icon": "motor",
+    "description": "Ingeniería práctica explicada sin tecnicismos confusos: Brushless vs carbones, velocidades 1 y 2, Nm vs in-lbs y taladro percutor vs impacto."
+  },
+  {
+    "slug": "mantenimiento-seguridad-y-solucion-de-fallas",
+    "name": "Mantenimiento y Solución de Fallas",
+    "icon": "shield",
+    "description": "Cómo destrabar mandriles, limpiar polvo de concreto, diagnosticar baterías que no cargan y trabajar con seguridad dentro del hogar."
+  },
+  {
+    "slug": "organizacion-de-herramientas-y-compra-en-amazon",
+    "name": "Organización y Compra en Amazon EE. UU.",
+    "icon": "box",
+    "description": "Cómo guardar herramientas sin humedad en espacios pequeños y cómo leer los códigos Bare Tool (B/Z) frente a Kits completos al comprar en Amazon."
+  }
+]
