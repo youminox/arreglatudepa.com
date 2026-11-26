@@ -61,8 +61,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "DEWALT 20V MAX Cordless Drill/Driver Kit Brushless (DCD777D1 / DCD794D1) — Batería 2.0Ah y Cargador Incluidos",
     subtitle:
       "Motor Brushless sin escobillas de 340 UWO, mandril sin llave de 1/2\" (13 mm), 15 niveles de torque. Compatible con todas las baterías DEWALT 20V MAX (DCB203, DCB204, DCB205).",
-    rating: "4.8",
-    reviewsCount: "46.800+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("DEWALT 20V MAX Brushless Cordless Drill Driver Kit DCD777D1 DCD794D1")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("DEWALT taladro atornillador sin escobillas 18V XR bateria cargador")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -73,8 +71,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "DEWALT 20V MAX XR Brushless 1/2\" Hammer Drill/Driver Kit (DCD805D2 / DCD796D2) — 2 Baterías + Cargador",
     subtitle:
       "Hasta 34.000 BPM en modo percutor para perforar concreto y mampostería en departamento sin esfuerzo, mandril metálico de 1/2\" y luz LED pivotante de 3 posiciones.",
-    rating: "4.8",
-    reviewsCount: "22.400+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("DEWALT 20V MAX XR Brushless Hammer Drill Kit DCD805D2")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("DEWALT DCD805 taladro percutor 18V XR sin escobillas")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -85,8 +81,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Bosch 12V Max 3/8\" Drill/Driver Kit (PS31-2A / PS32-02) — 2 Baterías 2.0Ah, Cargador y Bolso",
     subtitle:
       "Ultraligero (< 1 kg), cabezal corto ideal para interiores de alacenas y 20+1 niveles de embrague suave que evitan barrer tornillos en melamina y MDF.",
-    rating: "4.8",
-    reviewsCount: "14.900+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Bosch 12V Max 3/8 Inch Drill Driver Kit PS31-2A")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Bosch Professional GSR 12V-15 taladro atornillador 2 baterias")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -97,8 +91,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Bosch 12V Max Flexiclick 5-in-1 Drill/Driver System (GSR12V-140FCB22 / GSR12V-300FCB22)",
     subtitle:
       "Incluye portapuntas magnético 1/4\" Hex, mandril 3/8\", cabezal excéntrico para bordes y cabezal en ángulo recto 90° con 2 baterías Bosch 12V Max.",
-    rating: "4.8",
-    reviewsCount: "6.300+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Bosch 12V Max Flexiclick 5-in-1 Drill Driver System GSR12V")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Bosch Professional GSR 12V-15 FC FlexiClick 5 en 1")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -109,20 +101,16 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Makita 18V LXT Lithium-Ion Brushless Cordless 1/2\" Driver-Drill Kit (XFD131 / XPH12) — Batería 3.0Ah y Cargador Rápido",
     subtitle:
       "440 in-lbs (50 Nm) de torque, motor Brushless japonés ultra eficiente y carga ultrarrápida en 30 min. Compatible con toda la línea Makita 18V LXT (BL1830B, BL1840B, BL1850B).",
-    rating: "4.8",
-    reviewsCount: "11.700+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Makita XFD131 18V LXT Lithium-Ion Brushless Cordless Driver-Drill Kit")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Makita DDF484 DHP484 taladro 18V LXT sin escobillas")}&tag=${AMAZON_TAG_ES}`,
   },
   "black-decker-ldx120pk-kit": {
     id: "black-decker-ldx120pk-kit",
-    badge: "💵 #1 Más Económico para Independizarse y Arreglos Básicos (< $65)",
+    badge: "💵 #1 Más Económico para Independizarse y Arreglos Básicos",
     title:
       "BLACK+DECKER 20V MAX Cordless Drill/Driver (LDX120C) o Kit Hogar 68 Piezas (LDX120PK)",
     subtitle:
       "La opción #1 en Amazon EE. UU. para presupuestos ajustados: incluye taladro 20V MAX PowerConnect con 11 posiciones de embrague, batería LBXR20, cargador y herramientas manuales.",
-    rating: "4.7",
-    reviewsCount: "54.200+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("BLACK+DECKER 20V MAX Cordless Drill Driver Project Kit LDX120PK LDX120C")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("BLACK+DECKER taladro sin cable 18V maletin accesorios")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -133,8 +121,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "DEWALT 20V MAX Cordless Drill and Impact Driver Combo Kit (DCK240C2 / DCK277D2) — 2 Baterías y Cargador",
     subtitle:
       "El dúo definitivo: taladro 1/2\" para perforar con precisión + atornillador de impacto 1/4\" Hex para meter tornillos largos sin esfuerzo, con 2 baterías 20V MAX, cargador y bolso.",
-    rating: "4.8",
-    reviewsCount: "61.500+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("DEWALT 20V MAX Cordless Drill Impact Driver Combo Kit DCK240C2 DCK277D2")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("DEWALT kit combo taladro y atornillador de impacto 18V XR")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -145,8 +131,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "DEWALT 8V MAX Gyroscopic Cordless Screwdriver (DCF680N2) / Bosch GO Smart USB Screwdriver",
     subtitle:
       "Control giroscópico de velocidad y embrague de 15 posiciones para armar muebles tipo IKEA, bisagras, enchufes y gabinetes sin dañar cabezas de tornillos.",
-    rating: "4.8",
-    reviewsCount: "12.800+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("DEWALT 8V MAX Cordless Screwdriver Kit Gyroscopic DCF680N2")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Bosch Professional Bosch GO destornillador a bateria DEWALT DCF680")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -157,8 +141,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "DEWALT 20V MAX XR Battery 5.0Ah / 2.0Ah Pack (DCB205 / DCB203) + Cargador Rápido DCB115 / USB-C DCB094K",
     subtitle:
       "100 % compatible con todos los taladros y atornilladores DEWALT 20V MAX, XR y ATOMIC, con indicador LED de carga de 3 luces.",
-    rating: "4.8",
-    reviewsCount: "39.400+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("DEWALT 20V MAX Battery 5.0Ah 2.0Ah Charger Starter Kit DCB205 DCB115")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("DEWALT bateria 18V XR 5.0Ah DCB184 cargador DCB115")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -169,8 +151,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Baterías Originales Makita BL1850B 18V LXT · Bosch GBA12V30 / CORE18V · BLACK+DECKER LBXR20 20V MAX",
     subtitle:
       "Reemplazos auténticos con protección electrónica contra sobrecarga y sobrecalentamiento para mantener el torque real de tu herramienta.",
-    rating: "4.8",
-    reviewsCount: "24.100+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Makita BL1850B 18V LXT Bosch 12V Max Battery BLACK+DECKER 20V LBXR20")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Makita BL1850B bateria 18V Bosch GBA 12V BLACK DECKER 18V")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -181,8 +161,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "DEWALT MaxFit / FlexTorq Screwdriver Bit Set (DWA2T40IR) + Bosch Multi-Construction / Masonry Drill Bits",
     subtitle:
       "Vástago universal 1/4\" Hex y cilíndrico compatible con mandriles de 3/8\" y 1/2\" de DEWALT, Bosch, Makita y BLACK+DECKER para concreto, ladrillo, melamina y metal.",
-    rating: "4.8",
-    reviewsCount: "72.300+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("DEWALT Screwdriver Bit Set Impact Ready DWA2T40IR Bosch Masonry Drill Bit Set")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("DEWALT Bosch juego puntas atornillar impacto y brocas hormigon madera metal")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -615,7 +593,7 @@ Deno.serve(async (req: Request) => {
 
 Tu doble misión es:
 1. RESPONDER TODAS LAS DUDAS DEL USUARIO con precisión técnica y lenguaje claro en español:
-   - PRESUPUESTO Y TIPO DE TRABAJO: Compara taladros atornilladores, taladros percutores (concreto/ladrillo), destornilladores eléctricos (4V/8V para muebles y melamina) y juegos/kits de herramientas según el presupuesto (<$60 BLACK+DECKER LDX120C/LDX120PK, $90–$140 Bosch 12V PS31-2A o DEWALT 20V DCD777D1/DCD794D1, $140+ Makita 18V LXT XFD131 o DEWALT XR Percutor DCD805D2).
+   - PRESUPUESTO Y TIPO DE TRABAJO: Compara taladros atornilladores, taladros percutores (concreto/ladrillo), destornilladores eléctricos (4V/8V para muebles y melamina) y juegos/kits de herramientas según el presupuesto.
    - COMPATIBILIDAD EXACTA: Indica siempre qué baterías, cargadores, brocas y puntas son compatibles con cada modelo:
      * DEWALT 20V MAX / XR / ATOMIC usan baterías deslizantes 20V MAX (DCB203, DCB204, DCB205, PowerStack) y cargadores DCB112/DCB115/DCB094K (NO son compatibles con herramientas DEWALT 12V MAX XTREME).
      * Bosch 12V Max usa baterías GBA12V / BAT414 y cargador GAL12V-20; Bosch 18V usa baterías CORE18V / AMPShare GBA18V.

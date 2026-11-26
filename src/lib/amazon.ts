@@ -17,8 +17,6 @@ export interface AmazonProductRecommendation {
   title: string;
   subtitle: string;
   features: string[];
-  rating: string;
-  reviewsCount: string;
   categoryType: AmazonCategoryType;
   specs?: {
     budgetRange: string;
@@ -93,11 +91,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Mandril sin llave con trinquete de 1/2\" (13 mm), 2 velocidades mecánicas (0–500 / 0–1.750 RPM) y 15 niveles de embrague",
       "100 % compatible con las más de 300 herramientas y baterías DEWALT 20V MAX, XR y PowerStack",
     ],
-    rating: "4.8",
-    reviewsCount: "46.800+",
     categoryType: "drill-driver",
     specs: {
-      budgetRange: "US$99 – US$129 (Kit completo)",
+      budgetRange: "precio variable en Amazon (Kit completo)",
       jobType: "Muebles, madera, drywall, metal y mantenimiento general",
       batteryChargerCompat:
         "DEWALT 20V MAX (DCB203 2Ah, DCB205 5Ah, PowerStack) + DCB112/DCB115",
@@ -123,11 +119,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Mandril 100 % metálico nitro-carburizado de 1/2\" con mordazas de carburo que evitan que la broca de concreto patine",
       "Luz LED pivotante de 3 posiciones y 70 lúmenes en la base para iluminar sin sombra del mandril",
     ],
-    rating: "4.8",
-    reviewsCount: "22.400+",
     categoryType: "hammer-drill",
     specs: {
-      budgetRange: "US$169 – US$199 (Kit 2 baterías)",
+      budgetRange: "precio variable en Amazon (Kit 2 baterías)",
       jobType: "Paredes de concreto, ladrillo, soportes de TV y obra pesada",
       batteryChargerCompat:
         "Todas las baterías DEWALT 20V MAX / XR / PowerStack + DCB115",
@@ -151,11 +145,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Incluye 2 baterías Bosch de 12V (2.0Ah) y cargador rápido de 30 minutos para no detener nunca el armado",
       "2 velocidades (0–350 RPM para atornillar con control total y 0–1.300 RPM para perforar madera, drywall y metal)",
     ],
-    rating: "4.8",
-    reviewsCount: "14.900+",
     categoryType: "drill-driver",
     specs: {
-      budgetRange: "US$89 – US$119 (Kit 2 baterías)",
+      budgetRange: "precio variable en Amazon (Kit 2 baterías)",
       jobType: "Muebles en melamina/IKEA, bisagras de cocina y drywall",
       batteryChargerCompat:
         "Bosch 12V Max (BAT414 2.0Ah / GBA12V30 3.0Ah) + GAL12V-20",
@@ -180,11 +172,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "El cabezal excéntrico permite atornillar a milímetros de una esquina de clóset sin inclinar el tornillo",
       "El cabezal de 90° gira en 16 posiciones distintas para instalar repisas y bisagras en huecos mínimos",
     ],
-    rating: "4.8",
-    reviewsCount: "6.300+",
     categoryType: "drill-driver",
     specs: {
-      budgetRange: "US$159 – US$199 (Kit 5-en-1 completo)",
+      budgetRange: "precio variable en Amazon (Kit 5-en-1 completo)",
       jobType: "Instalación de cocinas, clósets a medida y rincones estrechos",
       batteryChargerCompat: "Baterías Bosch 12V Max GBA12V / BAT414 + GAL12V-20",
       bitsAndChuckCompat:
@@ -208,11 +198,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Incluye batería Makita 18V LXT 3.0Ah con indicador LED y cargador rápido DC18RC con enfriamiento activo",
       "Puerta de entrada a la plataforma inalámbrica #1 del mundo con más de 300 herramientas Makita 18V LXT compatibles",
     ],
-    rating: "4.8",
-    reviewsCount: "11.700+",
     categoryType: "drill-driver",
     specs: {
-      budgetRange: "US$129 – US$159 (Kit 3.0Ah carga 30 min)",
+      budgetRange: "precio variable en Amazon (Kit 3.0Ah carga 30 min)",
       jobType: "Carpintería fina, remodelación exigente y uso intensivo",
       batteryChargerCompat:
         "Makita 18V LXT Star Protection (BL1820B, BL1840B, BL1850B) + DC18RC",
@@ -227,7 +215,7 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
 
   BLACK_DECKER_LDX120: {
     id: "black-decker-ldx120pk-kit",
-    badge: "💵 #1 Más Económico para Primer Departamento (< US$65)",
+    badge: "💵 #1 Más Económico para Primer Departamento",
     title:
       "BLACK+DECKER 20V MAX Cordless Drill/Driver (LDX120C) o Kit Hogar 68 Piezas (LDX120PK)",
     subtitle:
@@ -237,11 +225,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "La versión LDX120PK añade en un solo bolso 67 herramientas y accesorios (martillo, alicates, cinta métrica, cutter, brocas y puntas)",
       "Usa el sistema de baterías intercambiables BLACK+DECKER 20V MAX PowerConnect que mantiene la carga hasta 18 meses guardada",
     ],
-    rating: "4.7",
-    reviewsCount: "54.200+",
     categoryType: "drill-driver",
     specs: {
-      budgetRange: "US$44 – US$79 (Taladro o Kit 68 pzs)",
+      budgetRange: "precio variable en Amazon (Taladro o Kit 68 pzs)",
       jobType: "Independizarse, bricolaje ocasional, cuadros y muebles",
       batteryChargerCompat:
         "BLACK+DECKER 20V MAX PowerConnect (LBXR20 / LBXR2020) + LCS1620",
@@ -266,11 +252,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Viene con 2 baterías de litio DEWALT 20V MAX, cargador y bolso de lona resistente para guardar en el clóset",
       "Disponible en versión clásica económica (DCK240C2) y en versión 100 % Brushless sin escobillas (DCK277D2)",
     ],
-    rating: "4.8",
-    reviewsCount: "61.500+",
     categoryType: "tool-kit",
     specs: {
-      budgetRange: "US$139 – US$199 (Combo 2 Herramientas)",
+      budgetRange: "precio variable en Amazon (Combo 2 Herramientas)",
       jobType: "Remodelación de casa/depa, carpintería y fijaciones rápidas",
       batteryChargerCompat:
         "2 baterías DEWALT 20V MAX incluidas + acepta DCB204/DCB205",
@@ -295,11 +279,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Mango de 2 posiciones: modo pistola para hacer palanca y modo recto en línea para entrar en huecos profundos",
       "Doble anillo LED frontal e indicador del estado de batería integrado",
     ],
-    rating: "4.8",
-    reviewsCount: "12.800+",
     categoryType: "electric-screwdriver",
     specs: {
-      budgetRange: "US$55 – US$105 en Amazon EE. UU.",
+      budgetRange: "precio variable en Amazon en Amazon EE. UU.",
       jobType: "Armado fino de muebles, bisagras, tableros eléctricos y PC",
       batteryChargerCompat:
         "2 baterías DEWALT 8V MAX DCB080 incluidas (o carga USB en Bosch GO)",
@@ -324,11 +306,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Indicador LED de 3 barras integrado para comprobar la carga restante antes de subir a la escalera",
       "Opción de cargador USB-C PD DCB094K (100–240V universal, funciona en EE. UU. y en enchufes de 220V sin transformador)",
     ],
-    rating: "4.8",
-    reviewsCount: "39.400+",
     categoryType: "battery-charger",
     specs: {
-      budgetRange: "US$45 – US$129 (Simple, Pack x2 o Starter Kit)",
+      budgetRange: "precio variable en Amazon (Simple, Pack x2 o Starter Kit)",
       jobType: "Ampliar autonomía y alimentar herramientas Bare Tool",
       batteryChargerCompat:
         "Compatible con cargadores DCB112, DCB115, DCB118 y DCB094K USB-C",
@@ -352,11 +332,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Bosch GBA12V30 (3.0Ah compacta para PS31/Flexiclick) y Bosch CORE18V GBA18V40 para línea 18V AMPShare",
       "BLACK+DECKER LBXR20 / LBXR2020 PowerConnect compatible con todos los equipos domésticos y jardín 20V MAX",
     ],
-    rating: "4.8",
-    reviewsCount: "24.100+",
     categoryType: "battery-charger",
     specs: {
-      budgetRange: "US$29 – US$119 según marca y Ah",
+      budgetRange: "precio variable en Amazon según marca y Ah",
       jobType: "Batería de respaldo para cero interrupciones en casa",
       batteryChargerCompat:
         "Seleccionar exactamente la misma marca y voltaje (12V vs 18V/20V)",
@@ -381,11 +359,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Incluye guía magnética deslizante y dados hexagonales de 1/4\", 5/16\" y 3/8\" para apretar pernos de soportes de TV",
       "Brocas con punta de carburo de tungsteno para perforar concreto, ladrillo, cerámica, madera y metal con precisión",
     ],
-    rating: "4.8",
-    reviewsCount: "72.300+",
     categoryType: "bits-accessories",
     specs: {
-      budgetRange: "US$16 – US$32 en Amazon EE. UU.",
+      budgetRange: "precio variable en Amazon en Amazon EE. UU.",
       jobType: "Concreto, ladrillo, melamina, madera, metal y soportes TV",
       batteryChargerCompat: "Universal (no depende de voltaje ni marca)",
       bitsAndChuckCompat:
@@ -410,11 +386,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Surtido organizado de tarugos de expansión para concreto/ladrillo y anclajes mariposa/Molly de alta carga para drywall",
       "Ideal para instalar soportes de TV, cortinas roller, espejos de baño y repisas flotantes a la primera",
     ],
-    rating: "4.7",
-    reviewsCount: "29.600+",
     categoryType: "bits-accessories",
     specs: {
-      budgetRange: "US$18 – US$59 en Amazon EE. UU.",
+      budgetRange: "precio variable en Amazon en Amazon EE. UU.",
       jobType: "Instalaciones seguras en paredes de departamento",
       batteryChargerCompat: "Universal para cualquier marca de taladro",
       bitsAndChuckCompat:
